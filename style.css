@@ -23,6 +23,9 @@ header{
     align-items: center;
     height: 100px;
     padding-top: 10px;
+    max-width: 1200px ;
+    margin: auto;
+
 }
 
 header > .logo > h1{
@@ -118,6 +121,11 @@ main{
     padding: 15px;
 }
 
+.input > input:hover{
+    background-color: rgb(218, 214, 214);
+    transition: 0.5s all;
+}
+
 .secao2{
     display: flex;
     flex-direction: row;
@@ -147,6 +155,8 @@ footer{
     padding: 10px;
     text-align: center;
     border-top: 1px solid white;
+    max-width: 1200px;
+    margin: auto;
     
 }
 
@@ -157,3 +167,4 @@ footer > p{
 footer > p > strong > a{
     color: rgb(113, 12, 207);
 }
+
